@@ -2,6 +2,7 @@
   "name": "Live-Scores",
   "version": "0.0.1",
   "dependencies": {
+		"request": "*",
     "express": "*",
 		"feedparser": "*",
 		"socket.io": "*",
