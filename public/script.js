@@ -1,4 +1,4 @@
-var socket = io.connect('http://liveleeds.herokuapp.com/');
+var socket = io.connect();
 
 $(document).ready(function(){
   socket.on('score', function(data) {

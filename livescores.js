@@ -20,7 +20,7 @@ app.get('/', function(req, res){
   res.render('home.jade');
 });
 
-server.listen(process.env.PORT || 5000);
+server.listen(3000);
 
 io.sockets.on('connection', function (socket) {
   setInterval(function(){
